@@ -56,39 +56,39 @@ function App() {
   const videos = [
   {
     title: 'Video cinematic 17 agustus desa kebuyutan',
-    src: '/video/activity.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910120/activity.mov',
   },
   {
     title: 'Video Kegiatan pmm batch 4',
-    src: '/video/tapis%20berseri%20pmm%204.mov',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910357/KALEIDOSKOP_PMM_4_UTI.mp4',
   },
   {
     title: 'Video animasi 3D pixar AI',
-    src: 'public/video/animasi ai.mov',
+    src: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908153/Gemini_Generated_Image_5afi235afi235afi.png',
   },
   {
     title: 'video animasi 3D pixar ai',
-    src: 'public/video/video animasi 3D pixar.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793911160/video_profil_sekolah.mov',
   },
   {
     title: 'KALEIDOSKOP PMM 4 UTI',
-    src: '/public/video/KALEIDOSKOP PMM 4 UTI.mov',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910959/copy_4FEF2129-19F3-4274-A64A-F0F6092CA44F.mp4',
   },
   {
     title: 'berita',
-    src: 'public/video/berita.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793908351/berita2.mp4',
   },
    {
     title: 'video/presentasi alat deyeksi kebocoran gas berbasis IoT',
-    src: 'public/video/presentasi alat deyeksi kebocoran gas.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793908373/presentasi_alat_deyeksi_kebocoran_gas.mp4',
   },
    {
     title: 'Video profil sekolah berbasis ai',
-    src: 'public/video/video profil sekolah.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793908353/video_profil_sekolah.mp4',
   },
    {
     title: 'promosi parfume',
-    src: 'public/video/parfume.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793908344/parfume.mp4',
   },
 ]
   const nextSlide = () => {
@@ -870,7 +870,7 @@ function App() {
           number: '01',
           title: 'Website Booking MUA',
           description: 'Website booking jasa Makeup Artist dengan desain modern, responsif, dan pengalaman pengguna yang mudah.',
-          image: 'src/assets/mua.png',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908898/mua.png',
           tech: ['React', 'JavaScript', 'Tailwind CSS'],
           color: 'from-blue-400 to-cyan-400',
           url: 'https://sar-mua.wijaralgifari.workers.dev/',
@@ -879,7 +879,7 @@ function App() {
           number: '02',
           title: 'Website Portal Organisasi SPN',
           description: 'Portal organisasi PSP SPN PT Nikomas Gemilang menggunakan arsitektur full-stack dan database PostgreSQL.',
-          image: 'src/assets/spn.png',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908898/spn.png',
           tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
           color: 'from-purple-400 to-pink-400',
           url: 'https://spn-nikomas-fullstack.vercel.app/',
@@ -888,7 +888,7 @@ function App() {
           number: '03',
           title: 'Website tokokita',
           description: 'platform pembelian online dengan fitur payment external bank',
-          image: 'src/assets/tokokita.png',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908898/tokokita.png',
           tech: ['PHP', 'laravel', 'JavaScript','mysql'],
           color: 'from-orange-400 to-amber-400',
           url: 'https://contoh-website-3.com',
@@ -897,7 +897,7 @@ function App() {
           number: '04',
           title: 'Website toko bekaskita',
           description: 'Platform web jual barang bekas dengan mudah dan aman',
-          image: 'src/assets/bekaskita.png',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908897/bekaskita.png',
           tech: ['JavaScript','phyton',' Django','SQLite'],
           color: 'from-emerald-400 to-teal-400',
           url: 'https://contoh-website-4.com',
@@ -906,7 +906,7 @@ function App() {
           number: '05',
           title: 'deteksi kebocoran gas IoT',
           description: 'alat pendeteksi kebocoran gas berbasis Internet of Things yang dapat dikontrol dengan menggunakan smartphone',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.56.15.jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908590/WhatsApp_Image_2026-11-06_at_01.56.15.jpg',
           tech: ['c++'],
           color: 'from-emerald-400 to-teal-400',
           url: 'https://drive.google.com/file/d/1IFF_6bHCLUwA4tAuALLuJNbhJubH4JO5/view',
