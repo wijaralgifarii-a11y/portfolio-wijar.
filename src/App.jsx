@@ -60,7 +60,7 @@ function App() {
   },
   {
     title: 'Video Kegiatan pmm batch 4',
-    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910357/KALEIDOSKOP_PMM_4_UTI.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793912957/tapis_berseri_pmm_4.mp4',
   },
   {
     title: 'Video animasi 3D pixar AI',
@@ -68,11 +68,11 @@ function App() {
   },
   {
     title: 'video animasi 3D pixar ai',
-    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793911160/video_profil_sekolah.mov',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910959/copy_4FEF2129-19F3-4274-A64A-F0F6092CA44F.mp4',
   },
   {
     title: 'KALEIDOSKOP PMM 4 UTI',
-    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793910959/copy_4FEF2129-19F3-4274-A64A-F0F6092CA44F.mp4',
+    src: 'https://res.cloudinary.com/iiysfmhy/video/upload/v1793912547/KALEIDOSKOP_PMM_4_UTI.mp4',
   },
   {
     title: 'berita',
@@ -1360,18 +1360,10 @@ function App() {
           category: 'Organization',
           title: 'pelantikan',
           description: 'pelantikan pengurus karang taruna kecamatan tirtayasa kab. serang',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.06.33 (2).jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908552/WhatsApp_Image_2026-11-06_at_01.06.33_2.jpg',
           color: 'from-blue-500 to-cyan-500',
         },
-        {
-        number: '02',
-        type: 'organization',
-        category: 'organization',
-        title: 'panitia acara isra miraj ',
-        description: 'acara isra miraj di desa kebuyutan di selenggarakan oleh organisasi forum pemuda kemanisan',
-        image: 'public/images/WhatsApp Image 2026-11-06 at 01.06.33.jpeg',
-        color: 'from-violet-500 to-purple-500',
-        },
+        
         {
           number: '03',
           type: 'activities',
@@ -1379,38 +1371,58 @@ function App() {
           title: 'tanara clean up',
           description:
             'kegiatan bersih bersama volunteer ditanara dengan program tanara clean up yang di selenggarakan oleh pt. chandra asri',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.06.35 (1).jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908589/WhatsApp_Image_2026-11-06_at_01.06.35_1.jpg',
           color: 'from-emerald-500 to-teal-500',
         },
          {
           number: '04',
           type: 'activities',
           category: 'Activity',
-          title: 'jawara run 5k',
+          title: 'jawara BI run 5k',
           description:
             'panitia jawara run 5k provinsi banten',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.08.40.jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908589/WhatsApp_Image_2026-11-06_at_01.08.40.jpg',
+          color: 'from-emerald-500 to-teal-500',
+        },
+        {
+          number: '05',
+          type: 'activities',
+          category: 'Activity',
+          title: 'jawara run 5k',
+          description:
+            'panitia jawara PLN run 5k',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908589/WhatsApp_Image_2026-11-06_at_01.08.41.jpg',
           color: 'from-emerald-500 to-teal-500',
         },
         
         {
-          number: '05',
+          number: '06',
           type: 'activities',
           category: 'Activity',
           title: 'duta young preneur banten',
           description:
             'finalis 10 besar sebagai duta youngpreneur provinsi banten',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.28.56.jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908589/WhatsApp_Image_2026-11-06_at_01.28.56.jpg',
           color: 'from-emerald-500 to-teal-500',
         },
         {
-          number: '06',
+          number: '07',
           type: 'organization',
           category: 'organization',
           title: 'zetizen banten',
           description:
             'kegiatan kunjungan acara hut kab. serang',
-          image: 'public/images/WhatsApp Image 2026-11-06 at 01.39.07.jpeg',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908590/WhatsApp_Image_2026-11-06_at_01.39.07.jpg',
+          color: 'from-emerald-500 to-teal-500',
+        },
+        {
+          number: '08',
+          type: 'organization',
+          category: 'organization',
+          title: 'MC acara maulid nabi',
+          description:
+            'MC di acara peringatan hari besar islam maulid nabi muhammad sawa',
+          image: 'https://res.cloudinary.com/iiysfmhy/image/upload/v1793908572/WhatsApp_Image_2026-11-06_at_01.06.34_1.jpg',
           color: 'from-emerald-500 to-teal-500',
         },
       ]
